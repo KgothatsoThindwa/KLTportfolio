@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KGOTHATSO LIFA THINDWA'S PORTFOLIO WEBSITE </title>
+
+        <!-- BOX ICON-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- CUSTOM CSS-->
+        <link rel="stylesheet" href="css/styles.css">
+
+    </head>
+    <body>
+
+        <header class="hearder">
+            <a href="#" class="logo">Portfolio</a>
+
+            <i class='bx bx-menu'id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <!--home section design-->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                <h1>KGOTHATSO LIFA THINDWA</h1>
+                <h3>And I'm a <span class="multiple-text"></span>.</h3>
+                <p>My portfolio is a representation of all I've learned and accomplished as a Information Technology And Computer Science Student. Please download my CV for more Information.</p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/Austin.Martin2001/"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://twitter.com/KgothatsoTyrell"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.instagram.com/austinmartin447/?hl=en"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="www.linkedin.com/in/kgothatso-thindwa-0901432b3"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+                <a href="CV/KGOTHATSO LIFA THINDWA CV.pdf" class="btn">Download CV</a>
+            </div>
+            <div class="home-img">
+                <img src="images/home.png" alt="">
+            </div>
+        </section>
+
+        <!--About section design-->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="images/home.png" alt="">           
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Information Technology Specialist!</h3>
+                <p>I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time. Currently, I am looking for a job to enhance my skills. Proficient in Software Development, Web Design And Network & Communication.</p>
+                <a href="#services" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <!--Services section design-->
+        <section class="services" id="services"> 
+            <h2 class="heading">My <span>Services</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Software Development</h3>
+                    <p>Build custom software tailored to business needs, including front-end interfaces and core back-end technology.</p>
+                    <a href="#portfolio" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bx-bar-chart-alt'></i>
+                    <h3>Network And Communication</h3>
+                    <p>Network Engineering, Voice or Data Installation and Repair, and Network Applications and Operations.</p>
+                    <a href="#portfolio" class="btn">Read More</a>
+                </div>
+                <div class="services-box">
+                    <i class='bx bxs-paint'></i>
+                    <h3>Web Design</h3>
+                    <p>Developing a full responsive website that is user friendly. A clean website design that include detailed information/data.</p>
+                    <a href="#portfolio" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <!--portfolio section-->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span>Experience</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="images/portfolio images/Web Design.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>HTML/HTML5. PHP. ASP.net. JavaScript. CSS. VS Code. </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="images/portfolio images/network and communication.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Network And Communication</h4>
+                        <p>Wired and wireless connectivity. Perimeter and localized network security (firewalls). Network virtualization. Internet Service. Network application development. IP address management. Network operations/monitoring.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="images/portfolio images/software development.webp" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Software Development</h4>
+                        <p>VB.net. PHP. C#. JavaScript. SQL.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--contact section design-->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" id="name" class="item">
+                    <input type="email" placeholder="Email Address" id="email" class="item">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number" id="number" class="item">
+                    <input type="text" placeholder="Email Subject" id="subject" class="item">
+                </div>
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" class="item"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <!--footer design-->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2024 by KGOTHATSO L. THINDWA - All Rights Reserved.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+
+        <!--scroll revealer-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--typed js-->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+       
+        <!--custom js-->
+        <script src="js/script.js"></script>
+        
+    </body>
+</html>
